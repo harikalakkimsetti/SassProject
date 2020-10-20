@@ -1,0 +1,45 @@
+@import "mixins";
+@import "btn";
+
+$colors: (
+  primary: #ffffdd,
+  secondary: #f33151,
+);
+html {
+  height: 100vh;
+  @include coverimage("../images/cover.jpg");
+}
+
+body {
+  h1 {
+    color: map-get($colors, primary);
+    text-align: center;
+    margin-top: 20px;
+    font-size: 3em;
+  }
+  p {
+    color: map-get($colors, secondary);
+    text-align: center;
+    background-color: map-get($colors, primary);
+    padding-block: 10px;
+  }
+}
+.container {
+  text-align: center;
+}
+
+.btn-youtube {
+  @extend %btn;
+  background-color: map-get($colors, secondary);
+}
+.btn-insta {
+  @extend %btn;
+  background-color: blue;
+}
+
+.btn-backhome {
+  @extend %btn;
+  background-color: yellow;
+  color: black;
+  text-decoration: none;
+}

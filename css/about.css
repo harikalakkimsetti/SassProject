@@ -1,0 +1,50 @@
+.btn-youtube, .btn-insta, .btn-backhome {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 12px 2px;
+  font-size: 1rem;
+  color: #ffffff;
+  background-color: #361a9c;
+}
+
+html {
+  height: 100vh;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 75, 25, 0.8)), to(rgba(0, 0, 0, 0.4))), url("../images/cover.jpg");
+  background-image: linear-gradient(to top, rgba(0, 75, 25, 0.8), rgba(0, 0, 0, 0.4)), url("../images/cover.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+body h1 {
+  color: #ffffdd;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 3em;
+}
+
+body p {
+  color: #f33151;
+  text-align: center;
+  background-color: #ffffdd;
+  padding-block: 10px;
+}
+
+.container {
+  text-align: center;
+}
+
+.btn-youtube {
+  background-color: #f33151;
+}
+
+.btn-insta {
+  background-color: blue;
+}
+
+.btn-backhome {
+  background-color: yellow;
+  color: black;
+  text-decoration: none;
+}
+/*# sourceMappingURL=about.css.map */
